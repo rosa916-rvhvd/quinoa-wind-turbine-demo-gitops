@@ -1,0 +1,16 @@
+app:
+  name: quinoa-wind-turbine-demo
+  namespace: quinoa-wind-turbine-demo-dev
+  cluster: .apps.cluster-xxxxx.xxxxx.sandbox123.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/quinoa-wind-turbine-demo
+  org: rosa916-rvhvd
+  name: quinoa-wind-turbine-demo
+
+image:
+  registry: Openshift
+  host: image-registry.openshift-image-registry.svc:5000
+  organization: 
+  name: quinoa-wind-turbine-demo
